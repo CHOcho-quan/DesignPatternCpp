@@ -1,0 +1,11 @@
+project(DesignPatternCpp)
+
+set(CMAKE_CXX_STANDARD 11)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+
+message(STATUS ${CMAKE_SOURCE_DIR})
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+add_executable(Singleton ${CMAKE_SOURCE_DIR}/src/Singleton.cpp)
+
+add_executable(TemplateMethod ${CMAKE_SOURCE_DIR}/src/TemplateMethod.cpp)
