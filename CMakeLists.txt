@@ -9,3 +9,5 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 add_executable(Singleton ${CMAKE_SOURCE_DIR}/src/Singleton.cpp)
 
 add_executable(TemplateMethod ${CMAKE_SOURCE_DIR}/src/TemplateMethod.cpp)
+
+add_executable(Strategy ${CMAKE_SOURCE_DIR}/src/Strategy.cpp)

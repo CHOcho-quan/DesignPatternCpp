@@ -29,6 +29,10 @@ class Interface {
     }
 
     void Process() {
+        if (nullptr == method_) {
+            std::cout << "Template Method not Initialized\n";
+            return;
+        }
         method_->Process();
     }
 
