@@ -13,3 +13,5 @@ add_executable(TemplateMethod ${CMAKE_SOURCE_DIR}/src/TemplateMethod.cpp)
 add_executable(Strategy ${CMAKE_SOURCE_DIR}/src/Strategy.cpp)
 
 add_executable(Observer ${CMAKE_SOURCE_DIR}/src/Observer.cpp)
+
+add_executable(Decorator ${CMAKE_SOURCE_DIR}/src/Decorator.cpp)
