@@ -17,3 +17,5 @@ add_executable(Observer ${CMAKE_SOURCE_DIR}/src/Observer.cpp)
 add_executable(Decorator ${CMAKE_SOURCE_DIR}/src/Decorator.cpp)
 
 add_executable(Bridge ${CMAKE_SOURCE_DIR}/src/Bridge.cpp)
+
+add_executable(FactoryMethod ${CMAKE_SOURCE_DIR}/src/FactoryMethod.cpp)
