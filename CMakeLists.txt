@@ -19,3 +19,7 @@ add_executable(Decorator ${CMAKE_SOURCE_DIR}/src/Decorator.cpp)
 add_executable(Bridge ${CMAKE_SOURCE_DIR}/src/Bridge.cpp)
 
 add_executable(FactoryMethod ${CMAKE_SOURCE_DIR}/src/FactoryMethod.cpp)
+
+add_executable(AbstractFactory ${CMAKE_SOURCE_DIR}/src/AbstractFactory.cpp)
+
+add_executable(Prototype ${CMAKE_SOURCE_DIR}/src/Prototype.cpp)
