@@ -23,3 +23,5 @@ add_executable(FactoryMethod ${CMAKE_SOURCE_DIR}/src/FactoryMethod.cpp)
 add_executable(AbstractFactory ${CMAKE_SOURCE_DIR}/src/AbstractFactory.cpp)
 
 add_executable(Prototype ${CMAKE_SOURCE_DIR}/src/Prototype.cpp)
+
+add_executable(Builder ${CMAKE_SOURCE_DIR}/src/Builder.cpp)
