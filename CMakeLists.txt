@@ -25,3 +25,7 @@ add_executable(AbstractFactory ${CMAKE_SOURCE_DIR}/src/AbstractFactory.cpp)
 add_executable(Prototype ${CMAKE_SOURCE_DIR}/src/Prototype.cpp)
 
 add_executable(Builder ${CMAKE_SOURCE_DIR}/src/Builder.cpp)
+
+add_executable(Flyweight ${CMAKE_SOURCE_DIR}/src/Flyweight.cpp)
+
+add_executable(Facade ${CMAKE_SOURCE_DIR}/src/Facade.cpp)
