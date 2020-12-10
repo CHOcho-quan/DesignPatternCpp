@@ -31,3 +31,5 @@ add_executable(Flyweight ${CMAKE_SOURCE_DIR}/src/Flyweight.cpp)
 add_executable(Facade ${CMAKE_SOURCE_DIR}/src/Facade.cpp)
 
 add_executable(Adapter ${CMAKE_SOURCE_DIR}/src/Adapter.cpp)
+
+add_executable(State ${CMAKE_SOURCE_DIR}/src/State.cpp)
