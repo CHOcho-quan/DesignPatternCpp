@@ -33,3 +33,5 @@ add_executable(Facade ${CMAKE_SOURCE_DIR}/src/Facade.cpp)
 add_executable(Adapter ${CMAKE_SOURCE_DIR}/src/Adapter.cpp)
 
 add_executable(State ${CMAKE_SOURCE_DIR}/src/State.cpp)
+
+add_executable(Momento ${CMAKE_SOURCE_DIR}/src/Momento.cpp)
