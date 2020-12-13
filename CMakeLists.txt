@@ -37,3 +37,5 @@ add_executable(State ${CMAKE_SOURCE_DIR}/src/State.cpp)
 add_executable(Momento ${CMAKE_SOURCE_DIR}/src/Momento.cpp)
 
 add_executable(Composite ${CMAKE_SOURCE_DIR}/src/Composite.cpp)
+
+add_executable(Iterator ${CMAKE_SOURCE_DIR}/src/Iterator.cpp)
