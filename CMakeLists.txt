@@ -41,3 +41,5 @@ add_executable(Composite ${CMAKE_SOURCE_DIR}/src/Composite.cpp)
 add_executable(Iterator ${CMAKE_SOURCE_DIR}/src/Iterator.cpp)
 
 add_executable(ChainOfResponsibility ${CMAKE_SOURCE_DIR}/src/ChainOfResponsibility.cpp)
+
+add_executable(Command ${CMAKE_SOURCE_DIR}/src/Command.cpp)
